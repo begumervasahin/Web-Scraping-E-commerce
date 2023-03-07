@@ -1,0 +1,68 @@
+<div class="card">
+    <div *ngIf="product"class="row">
+      <div class="col-md-6">
+        <img src="{{ product.image }}" class="img-fluid rounded-start" />
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h3 class="card-title">{{ product.name | titlecase }}</h3>
+          <p class="card-text">{{ product.description | uppercase }}</p>
+          <h6 class="card-title"  style="font-weight: bold; font-style: italic ">Fiyat: {{ product.price | currency :"TRY"}}</h6>
+          <h5 class="card-title " style="font-weight: bold; font-style: italic ">
+            KDV'li Fiyat: {{ product.price | kdv: 20 |currency: "TRY" }}
+          </h5>
+          
+          <h5> En Düşük Fiyat</h5>
+          <a routerLink="/products" class="btn btn-sm btn-outline-success mt-5 "  style="font-weight: bold; font-style: italic;background-color:	#c772cb ">Anasayfaya git</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div *ngIf="product"class="row">
+      <div class="col-md-6">
+        <img src="{{ product.image }}" class="img-fluid rounded-start" />
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h3 class="card-title ">SAYFA İLE BAĞLANTI KURULAMADI</h3>
+        
+          <a href="#"  class="btn btn-sm btn-outline-success mt-5 text-white "  style="background-color:	#e3b4cc ">Sayfa linkine git</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="card">
+    <div *ngIf="product"class="row">
+      <div class="col-md-6">
+        <img src="{{ product.image }}" class="img-fluid rounded-start" />
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h3 class="card-title ">SAYFA İLE BAĞLANTI KURULAMADI</h3>
+        
+          <a href="#"  class="btn btn-sm btn-outline-success mt-5 text-white "  style="background-color:	#e3b4cc">Sayfa linkine git</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="card">
+    <div *ngIf="product"class="row">
+      <div class="col-md-6">
+        <img src="{{ product.image }}" class="img-fluid rounded-start" />
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h3 class="card-title ">SAYFA İLE BAĞLANTI KURULAMADI</h3>
+        
+          <a href="#"  class="btn btn-sm btn-outline-success mt-5 text-white "  style="background-color:#e3b4cc ">Sayfa linkine git</a>
+        </div>
+      </div>
+    </div>
+  </div>
+

@@ -1,0 +1,74 @@
+<div class="content">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header text-white" style="background-color:	#c772cb ">
+                <h3 class="title text-center">Ürün Ekle</h3>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="productAddForm">
+                    <div class="mt-3">
+                        <div class="form-group">
+                            <label for="name">Ürün Adı:</label>
+                            <input name="name" formControlName="name"  type="text" id="productName" class="form-control"
+                                placeholder="Ürün Adı" />
+                            <small class="text-danger" *ngIf="productAddForm.controls['name'].touched && productAddForm.hasError('required','name')">*Ürün adı giriniz.</small>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <div class="form-group">
+                            <label for="price">Ürün Fiyatı:</label>
+                            <input name="price" formControlName="price" type="number" id="productPrice" class="form-control"
+                                placeholder="Ürün Fiyatı" />
+                            <small class="text-danger" *ngIf="productAddForm.controls['price'].touched && productAddForm.hasError('required','price')">*Ürün fiyatı giriniz.</small>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <div class="form-group">
+                            <label for="description">Ürün Açıklaması:</label>
+                            <input name="description" formControlName="description" type="text" id="productDescription" class="form-control"
+                                placeholder="Ürün Açıklaması" />
+                            <small class="text-danger" *ngIf="productAddForm.controls['description'].touched && productAddForm.hasError('required','description')">*Ürün açıklaması giriniz.</small>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <div class="form-group">
+                            <label for="image">Ürün Resmi:</label>
+                            <input name="image" formControlName="image" type="text" id="productImageUrl" class="form-control"
+                                placeholder="Ürün Resmi" />
+                            <small class="text-danger" *ngIf="productAddForm.controls['image'].touched && productAddForm.hasError('required','image')">*Ürün resmi / linki giriniz.</small>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <label for="categoryId">Ürün Kategorisi:</label>
+                        <select class="form-select form-select-sm" name="categoryId" formControlName="categoryId" type="text" id="productCategoryId"
+                            class="form-control" placeholder="Ürün Kategorisi">
+                            <option value="">Seçiniz</option>
+                            <option *ngFor= "let c of categories" [value]="c.id">{{c.name}}</option>
+                        </select>
+                        <small class="text-danger" *ngIf="productAddForm.controls['categoryId'].touched && productAddForm.hasError('required','categoryId')">*Ürün kategorisi giriniz.</small>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <button  [disabled]="productAddForm.invalid" (click)="addProduct()" class="btn btn-fill btn-dark" style="background-color:	#c772cb ">Ekle</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngFor= "let p of products  | filter:filterText " 
+        class="card mt-2">
+  <img src="{{ p.image }}" alt="" class="card-img-top" />
+  <div class="card-body">
+    <h5 class="card-title">{{ p.name}}</h5>
+    <h6 class="card-title">{{ p.price | currency:"TRY" }}</h6>
+    <h6 class="card-title text-danger">
+      KDV'li Fiyatı: {{p.price | kdv:20 | currency :"TRY"}}
+    </h6>
+    <p class="card-text">{{ p.description }}</p>
+
+   
+    <a routerLink="/products/{{p.id}}" class="btn btn-sm btn-info me-2" style="background-color:	#c772cb ">Detay</a>
+    <button (click)="clearCard(p)" type="button" class="btn btn-danger btn-sm  " style="background-color:	#c772cb ">Sil</button>
+  </div>
+</div>

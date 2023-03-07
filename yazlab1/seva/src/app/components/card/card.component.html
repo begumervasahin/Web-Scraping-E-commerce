@@ -1,0 +1,63 @@
+<!--
+    bu sayfa sepet sayfasıdır. sepet için bir kart oluşturuldu
+-->
+
+<ng-container *ngIf="products.length !=0">
+    <div class="container">
+        <div class="card-table">
+            <div class="card-products">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>İsim</th>
+                            <th>Fotoğraf</th>
+                            <th>Açıklama</th>
+                            <th>Fiyat</th>
+                            <th>Adet</th>
+                            <th>Tutar</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let p of products; let i = index">
+                            <td>{{i+1}}</td>
+                            <td>{{p.name}}</td>
+                            <td><img style="width: 120px;" src="{{p.image}}" alt=""></td>
+                            <td>{{p.description}}</td>
+                            <td style="width: 10%;">{{p.price}}</td>
+                            <td style="width: 10%;">{{p.quantity}}</td>
+                            <td style="width: 10%;">{{p.total}}</td>
+                            <td>
+                                <button (click)="removeItem(p)" class="btn btn-danger">Sil</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td><button (click)="removeAllCard()" class="btn btn-danger btn-sm">Hepsini Sil</button>
+                            </td>
+                            <td><button routerLink="/products" class="btn btn-primary btn-sm">Alışveriş</button></td>
+                            <td><button class="btn btn-success btn-sm">Öde</button></td>
+                            <td><strong class="text-danger">TOPLAM {{grandTotal | currency: "TRY"}}</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="products.length ==0">
+    <div class="container1">
+        
+        <div class="card text-center" style="background-color:	#76007d ">
+            <h3 class="card-title text-white">SEPET</h3>
+        </div>
+        <div class="card2">
+            <img src="" alt="" />
+            <h4>Sepet boş</h4>
+            <h6>Ürün eklemek için satın al butonuna tıklayınız.</h6>
+            <button routerLink="/products" class="btn btn-outline-dark">Satın al</button>
+        </div>
+    </div>
+</ng-container>

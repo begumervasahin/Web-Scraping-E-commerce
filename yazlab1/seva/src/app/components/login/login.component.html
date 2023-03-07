@@ -1,0 +1,19 @@
+<body class="text-center mt-3">
+    <main class="form-signin">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <h1 class="h3 mb-3 fw-normal text-dark" style="color:	#620267 ">Giriş Yap</h1><hr>
+        <div class="form-floating">
+          <input formControlName="email" type="email" class="form-control mt-1" id="floatingInput" placeholder="name@example.com">
+          <small class="text-danger" *ngIf="loginForm.get('email').invalid && loginForm.get('email').touched">**zorunlu alan</small>
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating">
+          <input formControlName="password" type="password" class="form-control mt-1" id="floatingPassword" placeholder="Password">
+          <small class="text-danger" *ngIf="loginForm.controls['password'].touched && loginForm.hasError('required','password')">**zorunlu alan</small>
+          <label for="floatingPassword">Şifre</label>
+        </div>
+        <button [disabled]="loginForm.invalid" class="w-100 btn btn-dark" type="submit" style="background-color:	#c772cb ">Giriş Yap</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Tüm haklar saklıdır</p>
+      </form>
+    </main>
+</body> 

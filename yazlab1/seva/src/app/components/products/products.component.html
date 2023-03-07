@@ -1,0 +1,31 @@
+<div class="d-flex">
+  <label for="filterText" class="form-label"></label>
+  <input [(ngModel)]="filterText" class="form-control me-sm-2 my-2" type="text" placeholder="Ara" />
+  <button class="btn btn-dark sm-0 my-2" type="submit" style="background-color:	#c772cb ">Ara</button>
+</div>
+<div *ngIf="filterText" class="my-1"> aradığınız ürün..<strong>{{filterText}}</strong></div>
+
+
+<div *ngFor= "let p of products  | filter:filterText |
+              paginate: { itemsPerPage: pageNumber, currentPage: page, totalItems: totalLength }
+             " class="card mt-2">
+  <img src="{{ p.image }}" alt="" class="card-img-top" />
+  <div class="card-body">
+    <h5 class="card-title">{{ p.name}}</h5>
+    <h6 class="card-title">{{ p.price |currency: "TRY"  }}</h6>
+    <h6 class="card-title text-danger"> {{p.price | kdv:20 | currency: "TRY" }}</h6>
+    <p class="card-text">{{ p.description }}</p>
+    <button  (click)="addToCard(p)" type="button" class="btn btn-dark btn-sm me-2" style="background-color:	#c772cb ">Sepete Ekle</button>
+    <a routerLink="/products/{{p.id}}" class="btn btn-sm btn-info me-2" style="background-color:	#ebb3ee ">Detay</a>
+   
+  </div>
+</div>
+
+<div class="text-center my-pagination mt-4">
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+  <div class="pagination">
+    <button class="btn1" (click)="des()"><i class="fa fa-minus"></i>Daha az göster</button>
+    <input class="input" [value]="pageNumber">
+    <button class="btn1" (click)="inc()"><i class="fa fa-plus"></i>Daha fazla göster</button>
+  </div>
+</div>

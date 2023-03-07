@@ -1,0 +1,33 @@
+
+<!-- burası sayfanın en üst kısmıdır.-->
+
+<nav class="navbar navbar-expand-lg" style="background-color:	#f1cdf3 ">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/" routerLinkActive="active"  style="font-weight: bold;color:#6a0466; font-style: italic">SEVA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLinkActive="active" routerLink="/products" style="color:#774075;">ÜRÜNLER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLinkActive="active" routerLink="/product-add" style="color:#774075;">ÜRÜN EKLE</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <button routerLink='/card' class="btn btn-warning"  style="background-color:	#76007d "><i class="bi bi-cart-plus"></i>
+          <strong class="text-dark" style="color:#6a0466;">{{totalItem}}</strong>
+        </button>
+        <li class="nav-item">
+          <a class="nav-link" routerLink='/login' routerLinkActive="active" style="color:#774075;"> ADMİN GİRİŞİ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink='/register' routerLinkActive="active" style="color:#774075;">KAYIT OL</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

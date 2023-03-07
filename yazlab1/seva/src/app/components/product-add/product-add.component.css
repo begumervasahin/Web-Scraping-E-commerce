@@ -1,0 +1,78 @@
+.content{
+    margin-top: 4rem;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.card{
+    width: 267px;
+    height: 510px;
+    margin: 10px 5px;
+    float: left;
+  
+  }
+  .card-img-top {
+    padding: 0px 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: scale-down;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.7s;
+  }
+  
+  .card-img-top:hover {
+    opacity: 1.0;
+  
+  }
+  .d-flex{
+    margin-top: 4rem;
+  }
+  
+  .my-pagination /deep/ .ngx-pagination .current {
+    background:#4a0664;
+    margin-top: 1rem;
+  }
+  
+  .pagination{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+  }
+  
+  .input{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background: #500268;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  .btn1{
+  width: 13rem;
+  height: 3rem;
+  font-weight:bold;
+  border: 1px solid #4a0664;
+  border-radius: 5px;
+  }
+  
+  .btn1:hover{
+    background: #4a0664;
+    color: #ffffff;
+  }
+  
+  i{
+    margin-right: 5px;
+    border: 1px solid #4a0664;
+    border-radius: 3px;
+    border: none;
+    background:#4a0664;
+    color: #ffffff;
+  }
+  
+  

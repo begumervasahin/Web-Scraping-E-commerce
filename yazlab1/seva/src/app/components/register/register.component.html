@@ -1,0 +1,28 @@
+
+<!--
+  kayıt ol sayfası
+-->
+<body class="text-center mt-3">
+    <main class="form-signin">
+      <form [formGroup]="registerForm" (ngSubmit)="register()">
+        <h1 class="mb-3">Kayıt Ol</h1>
+        <p class="text-danger" style="font-size: small;">Kayıt olmak için lütfen bütün alanları doldurunuz</p><hr>
+        <div class="form-floating">
+            <input formControlName="name" type="text" class="form-control mt-1" id="floatingName" placeholder="Name">
+            <small class="text-danger" *ngIf="registerForm.get('name').invalid && registerForm.get('name').touched">**zorunlu alan</small>
+            <label for="floatingInput">İsim</label>
+          </div>
+        <div class="form-floating">
+          <input formControlName="email" type="email" class="form-control mt-1" id="floatingInput" placeholder="name@example.com">
+          <small class="text-danger" *ngIf="registerForm.get('email').invalid && registerForm.get('email').touched">**zorunlu alan</small>
+          <label for="floatingInput">E-posta</label>
+        </div>
+        <div class="form-floating">
+          <input formControlName="password" type="password" class="form-control mt-1" id="floatingPassword" placeholder="Password">
+          <small class="text-danger" *ngIf="registerForm.controls['password'].touched && registerForm.hasError('required','password')">**zorunlu alan</small>
+          <label for="floatingPassword">Şifre</label>
+        </div>
+        <button [disabled]="registerForm.invalid" class="w-100 btn btn-dark" type="submit">Kayıt Ol</button>
+      </form>
+    </main>
+</body>

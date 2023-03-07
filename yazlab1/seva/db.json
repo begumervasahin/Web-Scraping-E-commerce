@@ -1,0 +1,720 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": " Tuf Gamıng A15 Fx506lhb-hn347 Intel I5-10300h 8gb Ddr4 512gb Ssd Gtx1650 15.6 ",
+      "price": 13.999,
+      "categoryId": 3,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty570/product/media/images/20221018/19/196779661/600048345/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 4,
+      "name": " Nirvana X500.1021-4P00X-G-F Intel I5-10210U 4GB RAM 250GB SSD FREEDOS ",
+      "price": 7.499,
+      "categoryId": 5,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty294/product/media/images/20220113/15/26098802/163572635/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 5,
+      "name": " Aspire 3 A315-23 Amd Ryzen 5 3500u 8gb 256 Gb Ssd Freedos 15.6",
+      "price": 7.399,
+      "categoryId": 9,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty514/product/media/images/20220822/12/163802925/134492302/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 6,
+      "name": " A315-34 IntelCeleron-4020 4GB 128GBSSD 15,6",
+      "price": 4.299,
+      "categoryId": 9,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty491/product/media/images/20220725/9/149428581/524078923/2/2_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 7,
+      "name": " Abra A5 V19.3.6 Intel Core I7-12700h 16 Gb Ram 1tb Ssd 4gb Rtx3050ti Freedos 15,6 ",
+      "price": 23.259,
+      "categoryId": 2,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty510/product/media/images/20220819/12/162760212/547832018/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 8,
+      "name": "Dell Gaming G15 5511 Intel Core i7 11800H 16GB 512GB SSD RTX3050Ti Ubuntu 15.6",
+      "categoryId": 8,
+      "price": 27.299,
+      "image": "https://productimages.hepsiburada.net/s/207/550/110000183442450.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 10,
+      "name": "Lenovo V15 İntel Core I7-1165G7 16GB 512GB SSD Freedos 15.6",
+      "categoryId": 1,
+      "price": 17.49,
+      "image": "https://productimages.hepsiburada.net/s/253/550/110000235682913.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 11,
+      "name": "Dell Inspiron 15 5515 Ryzen 5 5500U 8gb 512GB SSD 15.6 ",
+      "categoryId": 8,
+      "price": 11.375,
+      "image": "https://productimages.hepsiburada.net/s/267/550/110000251709650.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 13,
+      "name": "Casper Excalibur G770.1140-BVL0X-B Intel Core i5 11400H 16GB 500GB SSD RTX3050TI Freedos 15.6",
+      "categoryId": 5,
+      "price": 20.819,
+      "image": "https://productimages.hepsiburada.net/s/181/550/110000145985112.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "name": "Dell Vostro 3510 N8802VN3510_U i3-1115G4 8 GB 256 GB SSD 15.6",
+      "price": 9.75348,
+      "description": "N11",
+      "image": "https://n11scdn.akamaized.net/a1/400_570/10/05/32/12/IMG-6453570921565422045.jpg",
+      "categoryId": "8",
+      "id": 14
+    },
+    {
+      "name": "Acer Aspire 3 3.Nesil Ryzen 5 3500U",
+      "price": 7.299,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/acer/thumb/134837-1-2_small.jpg",
+      "categoryId": "9",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "name": " Abra A7 V13.2.3 Intel Core I5-11400h 16gb Ram 500gb Ssd 4gb Rtx3050ti Freedos 17.3",
+      "price": 19.499,
+      "categoryId": 2,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty518/product/media/images/20220826/13/165993243/230886343/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 18,
+      "name": " Macbook Air 13'' M1 8gb 256gb Ssd Altın MGND3TU ",
+      "price": 20.399,
+      "categoryId": 6,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty513/product/media/images/20220822/16/163937942/117736341/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 19,
+      "name": " Tuf Gamıng A15 Fx506lhb-hn347 Intel I5-10300h 8gb Ddr4 512gb Ssd Gtx1650 15.6",
+      "price": 13.999,
+      "categoryId": 3,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty570/product/media/images/20221018/19/196779661/600048345/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 20,
+      "name": " Nirvana X500.1021-4P00X-G-F Intel I5-10210U 4GB RAM 250GB SSD FREEDOS 15.6 ",
+      "price": 7.499,
+      "categoryId": 5,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty294/product/media/images/20220113/15/26098802/163572635/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 21,
+      "name": " Aspire 3 A315-23 Amd Ryzen 5 3500u 8gb 256 Gb Ssd Freedos 15.6 ",
+      "price": 7.399,
+      "categoryId": 9,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty514/product/media/images/20220822/12/163802925/134492302/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 22,
+      "name": " A315-34 IntelCeleron-4020 4GB 128GBSSD 15,6'' Siyah Dizüstü Bilgisayar ",
+      "price": 4.299,
+      "categoryId": 9,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty491/product/media/images/20220725/9/149428581/524078923/2/2_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 23,
+      "name": " Abra A5 V19.3.6 Intel Core I7-12700h 16 Gb Ram 1tb Ssd 4gb Rtx3050ti Freedos 15,6 ",
+      "price": 23.259,
+      "categoryId": 2,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty510/product/media/images/20220819/12/162760212/547832018/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 24,
+      "name": " Slayer 7XL-3050Ti C2 i7-11800H 16GB 512GB 4GB RTX3050Ti 17.3",
+      "price": 21.993,
+      "categoryId": 12,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty283/product/media/images/20211230/16/19157488/251683698/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 25,
+      "name": " Abra A7 V13.2.1 Intel Core I5-11400h 16gb Ram 500gb Ssd 4gb Rtx3050ti Windows 11 17.3 ",
+      "price": 19.999,
+      "categoryId": 2,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty516/product/media/images/20220826/13/165989780/189194754/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 26,
+      "name": " Tuf Gamıng A15 Fa506ıcb-hn177 Amd Ryzen 5-4600h 8gb Ddr4 512gb Ssd Rtx3050 15.6",
+      "price": 15.399,
+      "categoryId": 3,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty571/product/media/images/20221018/19/196779422/600047834/1/1_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 28,
+      "name": " Rog Strıx G15 G513ıc-hn095 Amd Ryzen 7 4800h 16gb 1tb 4gb Rtx3050 Fhd 144hz  ",
+      "price": 20.849,
+      "categoryId": 3,
+      "image": "https://cdn.dsmcdn.com/mnresize/128/192/ty497/product/media/images/20220803/12/154045337/534585649/2/2_org_zoom.jpg",
+      "description": "Trendyol"
+    },
+    {
+      "id": 31,
+      "name": "Lenovo IdeaPad Gaming 3 Intel Core i5 11300H 16GB 512GB ",
+      "categoryId": 1,
+      "price": 19.879,
+      "image": "https://productimages.hepsiburada.net/s/303/550/110000294804537.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 32,
+      "name": "Lenovo IdeaPad 15ITL6 Intel Celeron 6305 4GB 256SSD ",
+      "categoryId": 1,
+      "price": 4.999,
+      "image": "https://productimages.hepsiburada.net/s/253/550/110000235444448.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 33,
+      "name": "Lenovo Ideapad Gaming 3 82K100CLTX İntel Core i7 11370H ",
+      "categoryId": 1,
+      "price": 21.199,
+      "image": "https://productimages.hepsiburada.net/s/217/550/110000195945141.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 34,
+      "name": "Dell Gaming G15 5511 Intel Core i7-11800H 8 GB Ram 512GB SSD 4gb RTX3050  ",
+      "categoryId": 8,
+      "price": 20.999,
+      "image": "https://productimages.hepsiburada.net/s/293/550/110000282260826.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 35,
+      "name": "Lenovo V15 ITL Gen2 Intel Core i5 1135G7 8GB 1TB + 128GB SSD ",
+      "categoryId": 1,
+      "price": 13.444,
+      "image": "https://productimages.hepsiburada.net/s/271/550/110000256278839.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 36,
+      "name": "Acer Extensa EX215-54G Intel Core I5 1135G7 8 GB 512 GB SSD ",
+      "categoryId": 8,
+      "price": 11.199,
+      "image": "https://productimages.hepsiburada.net/s/286/550/110000274844135.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 37,
+      "name": "Lenovo V14 G2 ITL Intel Core i5 1135G7 8GB 256GB SSD",
+      "categoryId": 1,
+      "price": 10.599,
+      "image": "https://productimages.hepsiburada.net/s/265/550/110000249655771.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 38,
+      "name": "Monster Abra A5 V19.3.5 Intel Core i7-12700H 16GB RAM 500GB SSD 4GB RTX3050Ti FreeDOS 15",
+      "categoryId": 2,
+      "price": 22.049,
+      "image": "https://productimages.hepsiburada.net/s/267/550/110000252781309.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 39,
+      "name": "Lenovo ThinkBook 15 G3 ACL AMD Ryzen 7 5700U 16 GB 512 GB SSD 15.6",
+      "categoryId": 1,
+      "price": 13.796,
+      "image": "https://productimages.hepsiburada.net/s/218/550/110000196422021.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 40,
+      "name": "Asus X515EA BQ1186W Intel Core i5 1135G7 8 GB 256 GB SSD Iris Xᵉ Windows 11 Home 15.6",
+      "categoryId": 3,
+      "price": 11.998,
+      "image": "https://productimages.hepsiburada.net/s/264/550/110000248389554.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 43,
+      "name": "Asus Tuf Gaming F15 FX506LHB-HN345 İntel Core I5-10300H 8 GB  512GB SSD 4 GB GTX1650 144 Hz Freedos 15.6",
+      "categoryId": 3,
+      "price": 15.199,
+      "image": "https://productimages.hepsiburada.net/s/292/550/110000281454647.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 44,
+      "name": "Lenovo Ideapad 3 15 Itl6 Intel Core i5 1135G7 8 GB 1 TB 256 GB SSD MX350 Freedos 15.6",
+      "categoryId": 1,
+      "price": 11.999,
+      "image": "https://productimages.hepsiburada.net/s/195/550/110000163163347.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 45,
+      "name": "Hp Pavilion Gaming Laptop 15-EC2057NT Amd Ryzen 5 5600H 8 GB 512 GB SSD Rtx 3050 144 Hz Freedos 15.6",
+      "categoryId": 11,
+      "price": 16.099,
+      "image": "https://productimages.hepsiburada.net/s/211/550/110000188588551.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 46,
+      "name": "Asus Tuf Gamıng A15 FA506ICB-HN177 Amd Ryzen 5-4600H 8gb Ddr4 512GB Pcıe SSD 4gb RTX3050 15.6",
+      "categoryId": 3,
+      "price": 19.849,
+      "image": "https://productimages.hepsiburada.net/s/295/550/110000285746229.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 47,
+      "name": "Lenovo IdeaPad Gaming 3 15IHU6 Intel Core i5 11300H 8GB 256GB SSD 1TB HDD RTX 3050 Freedos 15.6",
+      "categoryId": 1,
+      "price": 17.199,
+      "image": "https://productimages.hepsiburada.net/s/210/550/110000187663979.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 48,
+      "name": "Asus ROG Strix G513IC-HN037 AMD Ryzen 7 4800H 16GB 512GB SSD RTX3050 Freedos 15.6",
+      "categoryId": 3,
+      "price": 21.199,
+      "image": "https://productimages.hepsiburada.net/s/205/550/110000180001405.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 49,
+      "name": "Dell Gaming G15 5511 Intel Core i7 11800H 16GB 512GB SSD RTX3050Ti Ubuntu 15.6",
+      "categoryId": 8,
+      "price": 27.299,
+      "image": "https://productimages.hepsiburada.net/s/207/550/110000183442450.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 50,
+      "name": "HP 15S-EQ3014NT AMD Ryzen 5 5625U 8GB 256GB SSD Freedos 15.6",
+      "categoryId": 11,
+      "price": 9.298,
+      "image": "https://productimages.hepsiburada.net/s/258/550/110000241762249.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 51,
+      "name": "Lenovo V15 İntel Core I7-1165G7 16GB 512GB SSD Freedos 15.6",
+      "categoryId": 1,
+      "price": 17.49,
+      "image": "https://productimages.hepsiburada.net/s/253/550/110000235682913.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 52,
+      "name": "Dell Inspiron 15 5515 Ryzen 5 5500U 8gb 512GB SSD 15.6 ",
+      "categoryId": 8,
+      "price": 11.375,
+      "image": "https://productimages.hepsiburada.net/s/267/550/110000251709650.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 53,
+      "name": "Casper Excalibur G770.1245-8VJ0X-B Intel Core i5-12450H ",
+      "categoryId": 5,
+      "price": 20.599,
+      "image": "https://productimages.hepsiburada.net/s/235/550/110000217353354.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 54,
+      "name": "Casper Excalibur G770.1140-BVL0X-B Intel Core i5 11400H 16GB",
+      "categoryId": 5,
+      "price": 20.819,
+      "image": "https://productimages.hepsiburada.net/s/181/550/110000145985112.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 55,
+      "name": "Lenovo IdeaPad Gaming 3 Intel Core i5 11300H 16GB 512GB SSD ",
+      "categoryId": 1,
+      "price": 19.879,
+      "image": "https://productimages.hepsiburada.net/s/303/550/110000294804537.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 57,
+      "name": "Lenovo Ideapad Gaming 3 82K100CLTX İntel Core i7 11370H 16GB ",
+      "categoryId": 1,
+      "price": 21.199,
+      "image": "https://productimages.hepsiburada.net/s/217/550/110000195945141.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 58,
+      "name": "Dell Gaming G15 5511 Intel Core i7-11800H 8 GB Ram 512GB SSD  ",
+      "categoryId": 8,
+      "price": 20.999,
+      "image": "https://productimages.hepsiburada.net/s/293/550/110000282260826.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 59,
+      "name": "Lenovo V15 ITL Gen2 Intel Core i5 1135G7 8GB 1TB + 128GB SSD ",
+      "categoryId": 1,
+      "price": 13.444,
+      "image": "https://productimages.hepsiburada.net/s/271/550/110000256278839.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 60,
+      "name": "Acer Extensa EX215-54G Intel Core I5 1135G7 8 GB 512 GB SSD MX350 2 ",
+      "categoryId": 9,
+      "price": 11.199,
+      "image": "https://productimages.hepsiburada.net/s/286/550/110000274844135.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 61,
+      "name": "Lenovo V14 G2 ITL Intel Core i5 1135G7 8GB 256GB SSD MX350 Freedos 14",
+      "categoryId": 1,
+      "price": 10.599,
+      "image": "https://productimages.hepsiburada.net/s/265/550/110000249655771.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 62,
+      "name": "Monster Abra A5 V19.3.5 Intel Core i7-12700H 16GB RAM 500GB SSD 4GB ",
+      "categoryId": 2,
+      "price": 22.049,
+      "image": "https://productimages.hepsiburada.net/s/267/550/110000252781309.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 63,
+      "name": "Lenovo ThinkBook 15 G3 ACL AMD Ryzen 7 5700U 16 GB 512 GB SSD 15.6",
+      "categoryId": 1,
+      "price": 13.796,
+      "image": "https://productimages.hepsiburada.net/s/218/550/110000196422021.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 64,
+      "name": "Asus X515EA BQ1186W Intel Core i5 1135G7 8 GB 256 GB SSD Iris ",
+      "categoryId": 3,
+      "price": 11.998,
+      "image": "https://productimages.hepsiburada.net/s/264/550/110000248389554.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 65,
+      "name": "Asus ROG Strix G513IE-HN065 AMD Ryzen 7 4800H 16GB 512GB SSD RTX3050Ti ",
+      "categoryId": 3,
+      "price": 22.998,
+      "image": "https://productimages.hepsiburada.net/s/172/550/110000135127945.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 66,
+      "name": "HP Gaming Pavilion 15 DK2069NT 54T25EA Intel Core i5 11300H 16 GB Ram 51",
+      "categoryId": 11,
+      "price": 18.499,
+      "image": "https://productimages.hepsiburada.net/s/280/550/110000267735844.jpg",
+      "description": "HEPSİBURADA"
+    },
+    {
+      "id": 67,
+      "name": "HP 255 G9 6Q8N1ES Ryzen 5 5625U 8 GB 256 GB SSD 15.6",
+      "price": 9.148,
+      "categoryId": 11,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/04/90/75/79/IMG-5474575508966512904.png",
+      "description": "N11"
+    },
+    {
+      "id": 68,
+      "name": "Dell G15 5511 G55112306U i5-11260H 16 GB 512 GB SSD RTX 3050 15.6",
+      "price": 19.099,
+      "categoryId": 8,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/13/83/10/62/IMG-4328792743502254763.jpg",
+      "description": "N11"
+    },
+    {
+      "id": 69,
+      "name": "Asus Tuf Gaming A15 FA507RM-HN095 R7-6800H 16 GB 512 GB SSD RTX3060 144Hz 15.6",
+      "price": 26.898,
+      "categoryId": 3,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/15/29/62/63/IMG-6141706117962118313.jpg",
+      "description": "N11"
+    },
+    {
+      "id": 70,
+      "name": "Acer Nitro 5 AN517 NH.QFCEY.002 i7-11800H 16 GB 512 GB RTX3070 17.3",
+      "price": 30.168,
+      "categoryId": 9,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/16/13/44/92/IMG-1122099427479130605.png",
+      "description": "N11"
+    },
+    {
+      "id": 71,
+      "name": "Dell G15 5511 G55112306U i5-11260H 16 GB 512 GB SSD RTX 3050 15.6",
+      "price": 20.425,
+      "categoryId": 8,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/13/83/10/62/IMG-4328792743502254763.jpg",
+      "description": "N11"
+    },
+    {
+      "id": 72,
+      "name": "Lenovo V14 G2 ALC 82KC0005TX02 Ryzen 3 5300U 8 GB 256 GB SSD 14",
+      "price": 7.342,
+      "categoryId": 1,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/05/05/22/61/IMG-6341701047417102355.jpg",
+      "description": "N11"
+    },
+    {
+      "id": 73,
+      "name": "Asus D515DA-BR316901 Ryzen 3 3250U 8 GB 256 GB SSD 15.6",
+      "price": 7.149,
+      "categoryId": 3,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/15/51/11/31/IMG-182855288340074949.png",
+      "description": "N11"
+    },
+    {
+      "id": 74,
+      "name": "Asus Rog Strix G15 G513RM-HF266 R7-6800H 16 GB 512 GB SSD RTX3060 300Hz 15.6",
+      "price": 31.249,
+      "categoryId": 3,
+      "image": "https://n11scdn.akamaized.net/a1/400_570/13/86/70/04/IMG-573583494139541806.jpg",
+      "description": "N11"
+    },
+    {
+      "name": "Acer Aspire 3 3.Nesil Ryzen 5 3500U",
+      "price": 7.3,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/acer/thumb/134837-1-2_small.jpg",
+      "categoryId": "9",
+      "id": 75
+    },
+    {
+      "name": "Huawei Matebook D15 11.Nesil Core i5 1135G7",
+      "price": 13.599,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/huawei/thumb/132694-1_small.jpg",
+      "categoryId": "7",
+      "id": 76
+    },
+    {
+      "name": "Msi Creator Z17 12.Nesil Core i7 12700H-32Gb-1Tb Ssd",
+      "price": 74.065,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/msi/thumb/132928-1_large.jpg",
+      "categoryId": "4",
+      "id": 77
+    },
+    {
+      "name": "Msi Prestige 14 12.Nesil Core i7 1280P-16Gb-512Gb Ssd",
+      "price": 32.54,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/msi/thumb/132927-1_large.jpg",
+      "categoryId": "4",
+      "id": 78
+    },
+    {
+      "name": "Everest EverBook EB-21A18 i5-1135G7 32 GB 1 TB SSD",
+      "price": 16.345,
+      "description": "N11",
+      "image": "https://n11scdn1.akamaized.net/a1/602_857/13/81/86/25/IMG-9209357352204481290.jpg",
+      "categoryId": "10",
+      "id": 79
+    },
+    {
+      "name": "MacBook Pro MKGP3TU/A M1 Pro 16Gb-512Gb Ssd-Liquid Retina",
+      "price": 41.999,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/130712-1-1_large.jpg",
+      "categoryId": "6",
+      "id": 80
+    },
+    {
+      "name": "MacBook Air MLXY3TU/A M2 8Gb-256Gb Ssd-Liquid Retina-13.6in",
+      "price": 25.999,
+      "description": "Vatan",
+      "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/1-134051-1_large.jpg",
+      "categoryId": "6",
+      "id": 81
+    },
+    {
+      "name": "Apple MacBook Pro M2 Çip 8GB 256GB SSD macOS 13",
+      "price": 29.999,
+      "description": "Hepsiburada",
+      "image": "https://productimages.hepsiburada.net/s/237/550/110000220868815.jpg/format:webp",
+      "categoryId": "6",
+      "id": 82
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lenovo"
+    },
+    {
+      "id": 2,
+      "name": "Monster"
+    },
+    {
+      "id": 3,
+      "name": "Asus"
+    },
+    {
+      "id": 4,
+      "name": "MSI"
+    },
+    {
+      "id": 5,
+      "name": "Casper"
+    },
+    {
+      "id": 6,
+      "name": "Apple"
+    },
+    {
+      "id": 7,
+      "name": "Huawei"
+    },
+    {
+      "id": 8,
+      "name": "Dell"
+    },
+    {
+      "id": 9,
+      "name": "Acer"
+    },
+    {
+      "id": 10,
+      "name": "Everest"
+    },
+    {
+      "id": 11,
+      "name": "HP"
+    },
+    {
+      "id": 12,
+      "name": "Game Garaj"
+    }
+  ],
+  "users": [
+    {
+      "email": "seda@hotmail.com",
+      "password": "987654321",
+      "id": 1
+    },
+    {
+      "email": "seda@hotmail.com",
+      "password": "987654321",
+      "id": 2
+    }
+  ],
+  "registers": [
+    {
+      "name": "a",
+      "email": "elma@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "begüm",
+      "email": "ervasude37@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "halime",
+      "email": "halime@gmail.com",
+      "password": "123456789",
+      "id": 3
+    },
+    {
+      "name": "emine",
+      "email": "emine123@hotmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "şevval",
+      "email": "şevval987@gmail.com",
+      "password": "şevval987",
+      "id": 5
+    },
+    {
+      "name": "şevval",
+      "email": "şevval987@gmail.com",
+      "password": "şevval987",
+      "id": 6
+    },
+    {
+      "name": "şevval",
+      "email": "şevval987@gmail.com",
+      "password": "şevval987",
+      "id": 7
+    },
+    {
+      "name": "şevval",
+      "email": "şevval987@gmail.com",
+      "password": "şevval987",
+      "id": 8
+    },
+    {
+      "name": "şevval",
+      "email": "şevval987@gmail.com",
+      "password": "şevval987",
+      "id": 9
+    },
+    {
+      "name": "azer",
+      "email": "azerbülbül@hotmail.com",
+      "password": "azerbülbül",
+      "id": 10
+    },
+    {
+      "name": "alihan",
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "id": 11
+    },
+    {
+      "name": "seda",
+      "email": "seda@hotmail.com",
+      "password": "987654321",
+      "id": 12
+    },
+    {
+      "name": "şebnem ferah",
+      "email": "şebnemferah@gmail.com",
+      "password": "sss",
+      "id": 13
+    },
+    {
+      "name": "fatımanergis",
+      "email": "fatma.sahin-@hotmail.com",
+      "password": "456456",
+      "id": 14
+    }
+  ]
+}
